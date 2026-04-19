@@ -1,0 +1,48 @@
+/* expenses.css */
+.expenses-container {
+    padding: 24px;
+    background-color: #f8f9fa;
+    min-height: 90vh;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* This is the magic trick for wrapping */
+@media (max-width: 600px) {
+    .header-row {
+        justify-content: center;
+        /* Centers the title and picker when stacked */
+        text-align: center;
+    }
+
+    .header-row h2 {
+        width: 100%;
+        /* Forces the title to take a full line, pushing picker down */
+    }
+}
+
+.chart-card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+
+    /* Set a substantial height here */
+    height: 1000px;
+
+    /* Ensure the canvas fills this container */
+    position: relative;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}

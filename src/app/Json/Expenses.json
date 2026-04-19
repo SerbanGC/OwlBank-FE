@@ -1,0 +1,72 @@
+{
+    "AnnualExpenses": [
+        {
+            "Year": 1776546000000,
+            "ExpenseEntry": [
+                {
+                    "Month": "April",
+                    "Entertainment": 2145.34,
+                    "Groceries": 1987.45,
+                    "DrugStore": 845.23,
+                    "Food": 4321.12
+                },
+                {
+                    "Month": "May",
+                    "Entertainment": 2876.55,
+                    "Groceries": 1765.32,
+                    "DrugStore": 654.78,
+                    "Food": 3890.67
+                },
+                {
+                    "Month": "June",
+                    "Entertainment": 3123.11,
+                    "Groceries": 2234.56,
+                    "DrugStore": 932.44,
+                    "Food": 4567.89
+                },
+                {
+                    "Month": "July",
+                    "Entertainment": 4212.67,
+                    "Groceries": 2543.21,
+                    "DrugStore": 743.55,
+                    "Food": 5123.45
+                },
+                {
+                    "Month": "August",
+                    "Entertainment": 3987.45,
+                    "Groceries": 2678.90,
+                    "DrugStore": 812.34,
+                    "Food": 4890.23
+                },
+                {
+                    "Month": "September",
+                    "Entertainment": 2765.89,
+                    "Groceries": 1987.65,
+                    "DrugStore": 678.12,
+                    "Food": 4023.56
+                },
+                {
+                    "Month": "October",
+                    "Entertainment": 2456.78,
+                    "Groceries": 1876.54,
+                    "DrugStore": 589.43,
+                    "Food": 3765.22
+                },
+                {
+                    "Month": "November",
+                    "Entertainment": 1987.34,
+                    "Groceries": 1654.32,
+                    "DrugStore": 712.56,
+                    "Food": 3421.11
+                },
+                {
+                    "Month": "December",
+                    "Entertainment": 5123.67,
+                    "Groceries": 2987.65,
+                    "DrugStore": 934.21,
+                    "Food": 6789.45
+                }
+            ]
+        }
+    ]
+}

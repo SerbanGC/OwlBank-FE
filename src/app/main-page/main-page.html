@@ -1,0 +1,19 @@
+<app-header (myEvent)="handleEvent($event, sidenav)" />
+<mat-sidenav-container class="example-container">
+    <mat-sidenav position="end" class="sidenav" #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
+        (closed)="events.push('close!')">
+        <section class="sidenav-section">
+            <button matFab routerLink="/profile">
+                Profile
+                <mat-icon>account_circle</mat-icon>
+            </button>
+            <button matFab routerLink="/expenses">
+                Expenses
+                <mat-icon> bar_chart</mat-icon>
+            </button>
+        </section>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

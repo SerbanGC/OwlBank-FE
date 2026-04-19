@@ -1,0 +1,15 @@
+<div class="expenses-container">
+    <div class="header-row">
+        <h2>Spending Overview: {{ Data.Year | date: 'yyyy/MM/dd' }}</h2>
+        <mat-form-field subscriptSizing="dynamic" appearance="outline">
+            <mat-label>Filter by Date</mat-label>
+            <input matInput [matDatepicker]="picker" (dateChange)="onDateChange($event)">
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+    </div>
+
+    <div class="chart-card">
+        <canvas id="myChart"></canvas>
+    </div>
+</div>
